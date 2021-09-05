@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('https://testsocketio1.herokuapp.com/');
 $(document).ready(() => {
   $('.btn-submit').click(() => {
     socket.emit('hocvien-send-data', {
