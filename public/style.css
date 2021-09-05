@@ -1,0 +1,22 @@
+.formSbumit{
+    width: 90%;
+    border: 1px solid black;
+    padding : 12px;
+    text-align: center;
+    border-radius: 10px;
+    background: pink;
+}
+.listCurrentInfo{
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+}
+.onePerson{
+    border-bottom: 1px solid gray;
+    padding : 8px;
+    text-align: center;
+}
+.onePerson .name{
+    color : blue;
+    font-weight: bold;
+}
